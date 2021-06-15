@@ -1,0 +1,34 @@
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    color: white;
+    height: 60%;
+    justify-content: space-between;
+  }
+  .disconta{
+    overflow-y: auto;
+    overflow-x: hidden;
+    width:auto;
+    height: auto;
+  }
+  .activeContainer {
+    display: flex;
+    flex-direction:column;
+  }
+  
+  .activeItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .textContainer h1 {
+    margin-bottom: 0px;
+  }
+  
+  @media (min-width: 320px) and (max-width: 1200px) {
+    .textContainer {
+      display: none;
+    }
+  }

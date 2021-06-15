@@ -1,0 +1,14 @@
+.form {
+    width: 100%;
+    height: fit-content;
+  }
+  
+
+  .miniInput{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px solid black;
+    border-radius: 15px;
+  }
