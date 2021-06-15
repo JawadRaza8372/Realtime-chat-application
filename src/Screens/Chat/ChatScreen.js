@@ -7,6 +7,7 @@ import Messages from "../Components/Messages"
 import TextContainer from "../Components/TextContainer"
 import Input from "../Components/Input"
 import MeetingRoomIcon from '@material-ui/icons/MeetingRoom';
+import fields from "../../fields"
 let socket;
 function ChatScreen({location}) {
     const [name, setName] = useState('');
@@ -14,7 +15,7 @@ function ChatScreen({location}) {
     const [users, setUsers] = useState('');
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
-    let ENDPOINT="http://localhost:4000";
+    let ENDPOINT=`${fields}`;
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
     
