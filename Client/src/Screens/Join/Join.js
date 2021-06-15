@@ -6,6 +6,7 @@ function Join() {
     const [room, setroom] = useState("")
     return (
         <div className="joinMainContainer">
+                  <h1 style={{color:"white"}} className="heading mb-4">Group Chat Application</h1>
           <div className="minicontaner">
           <h1 className="heading mb-4">Join</h1>
           <div class="input-group mb-4">
